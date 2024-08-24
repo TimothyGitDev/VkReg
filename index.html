@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+      <div class="container">
+        <img src="./logoNav.png">
+        <input type="text" placeholder="Поиск">
+      </div>
+    </header>
+
+    <main>
+        <div class="container">
+
+            <div class="Welcome-section">
+                <div class="container">
+                <h1>Вконтакте для мобильных устройств</h1>
+                <p>Установите официальное мобильное приложение ВКонтакте и оставайтесь <br> в курсе новостей ваших друзей, где бы вы ни находились.</p>
+                <img src="./phones.png" alt="">
+
+                <nav>
+                    <a href="#"><img src="./icon1.png">Google Play</a>
+                    <a href="#"><img src="./icon1.png">RuStore</a>
+                    <a href="#"><img src="./icon1.png">App store</a>
+                </nav>
+
+                <div class="bottom-nav">
+                    <a href="#">Все продукты <img src="./arrow.png"></a>
+                </div>
+            </div>
+            </div>
+            
+    
+    <div class="reg-menu">
+        <div class="container">
+            <img src="./Logo.png" class="logo">
+            <h1 class="welcome">Вход ВКонтакте</h1>
+
+            <input type="text" class="login" placeholder="Телефон или почта"><br>
+            <input type="checkbox" class="checkbox"><span class="span">Сохранить вход</span>
+            <div class="MenuView">
+                <div class="MenuText">
+                    <span class='bx bxs-info-circle' id="infoIcon">
+                        <div id="menuF"><h1>Сохранить вход</h1>Выберите, чтобы сохранить данные <br> 
+                            аккаунта для быстрого входа на этом <br> устройстве</div>
+                            <br>
+                        </div> <!--MENU-MENU-MENU-MENU-MENU-MENU-MENU-MENU-->
+                    </span>
+                   <br>
+                </div>
+
+                
+             
+            <a href="#" class="btn">Войти</a>
+
+            <div class="bottom-menu">
+                <a class="QR-Container" href="./qr.html">
+                <img src="./QR_defoult.png" class="QR">
+                </a>
+                
+
+                <div class="bottom-menu__info">
+                <h4>Быстрый вход по QR-коду</h4>
+                <p class="desc">Наведите камеру телефона</p>
+                <a href="#">Подробнее</a>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="add-account">
+        <div class="container">
+            <a href="#" class="AddAccount">Создать аккаунт</a>
+            <a href="#" class="AddBuisness">Создать страницу для бизнеса</a>
+
+            <p class="addDesk">
+               После регистрации вы получите доступ <br>
+                    ко всем возможностям VK ID  
+            </p>
+            <a href="#" class="about">Узнать больше</a>
+        </div>
+    </div>
+    <div class="recomendation">
+        <label>Применяются рекомендательные технологии</label>
+    </div>
+    
+</div>
+</main>
+
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <p>Вконтакте © 2006-2024</p>
+
+            <div class="nav-footer">
+                <a href="#">О Вконтакте</a>
+                <a href="#">Правила</a>
+                <a href="#">Для бизнеса</a>
+                <a href="#">Разработчикам</a>
+            </div>
+            <div class="last-content">
+            <a href="#">Русский</a>
+            <a href="#">English</a>
+            <a href="#">Все языки</a>
+        </div>
+        </div>
+    </div>
+</footer>
+
+    <script>
+const span = document.querySelector('span');
+const checkbox = document.querySelector('myCheckbox');
+const menuF = document.getElementById('menuF');
+
+infoIcon.addEventListener('mouseover', function() {
+  menuF.classList.toggle('fade-enter-active', 'fade-leave-active');
+  menuF.style.opacity = 1;
+});
+
+infoIcon.addEventListener('mouseout', function() {
+  menuF.classList.toggle('fade-enter-active', 'fade-leave-active');
+  menuF.style.opacity = 0;
+});
+
+span.addEventListener('click', function() {
+    checkbox.checked = !checkbox.checked;
+});
+    </script>
+</body>
+</html>

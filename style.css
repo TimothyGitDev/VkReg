@@ -1,0 +1,442 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(22, 22, 22);
+    color: #fff;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 0;
+    margin-left: 0;
+
+}
+
+.container {
+    max-width: 1250px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+/* NavBar */
+
+.bottom-nav a {
+  color: #fff;
+  text-decoration: none;
+  color: rgb(86, 86, 231);
+  margin-right: 50px;
+  position: relative;
+  top: 25px;
+  left: 130px;
+}
+
+.bottom-nav a:hover {
+    border-bottom: 0.5px solid rgb(86, 86, 231);
+}
+
+.bottom-nav img {
+    position: relative;
+    top: 4px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0;
+    margin-right: 25px;
+    display: flex;
+    font-weight: 500;
+    font-size: 14px;
+
+}
+
+nav img {
+    width: 25px;
+    position: relative;
+    top: 1px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 140px;
+}
+
+.Welcome-section {
+    display: flex;
+}
+
+.Welcome-section h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.Welcome-section p {
+    font-size: 15px;
+    right: 55px;
+    position: relative;
+    color: #9d9d9d;
+    margin-bottom: 20px;
+}
+
+/* Header */
+
+header {
+    background-color: #222222;
+    width: 100%;
+}
+
+header img {
+    margin-top: 7px;
+    margin-right: 20px;
+}
+
+header input {
+    background-color: #363636;
+    border: 0;
+    height: 30px;
+    margin: 0;
+    top: 8px;
+    border-radius: 8px;
+    position: fixed
+}
+
+header .container {
+    padding: 0;
+}
+
+.reg-menu {
+    background-color: #262626;
+    display: flex;
+    max-width: 320px;
+    margin-right: 0;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    position: relative;
+    left: 750px;
+    bottom: 500px;
+}
+
+.checkbox {
+    background-color: #14a037;
+    margin-left: 10px;
+}
+
+
+.login {
+    width: 100%;
+    height: 33px;
+    border-radius: 8px;
+    border: 1px solid #5d5d5d;
+    background-color: #363636;
+    font-size: 14px;
+    margin-bottom: 7px;
+    outline: none;
+    padding: 0;
+}
+
+.login:focus {
+    border-color: rgb(45, 45, 255);
+}
+
+span {
+    font-size: 14px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+
+
+.checkbox {
+    background-color: #000;
+    margin-bottom: 25px;
+}
+
+::-webkit-input-placeholder {
+    position: relative;
+    left: 10px;
+}
+
+.btn{
+    color: #363636;
+    font-weight: 500;
+    text-decoration: none;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 35px;
+    border-radius: 7px;
+    margin-bottom: 25px;
+}
+
+.welcome {
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+/* Bottom menu */
+
+.bottom-menu {
+    border-top: #545454 solid 1px;
+    margin-top: 20px;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+h4 {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 3px;
+}
+
+.QR {
+    margin-right: 10px;
+    z-index: 50;
+    position: relative;
+}
+
+.QR_Load {
+    margin-right: 10px;
+    position: fixed;
+    right: 370px;
+    display: none;
+    
+}
+
+.bottom-menu__info {
+   font-size: 15px;
+}
+
+.bottom-menu__info a:hover {
+    border-bottom: 0.5px solid rgb(86, 86, 231);
+}
+
+.desc {
+    margin: 0;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.bottom-menu__info a {
+    color: rgb(73, 73, 221);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* Add Account Menu */
+
+.add-account {
+    margin-top: 15px;
+    background-color: #262626;
+    display: flex;
+    max-width: 320px;
+    margin-right: 0;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+   
+
+    position: relative;
+    left: 750px;
+    bottom: 500px;
+}
+
+.AddAccount {
+    color: #fff;
+    font-weight: 500;
+    font-size: 15px;
+    text-decoration: none;
+    background-color: #14a037;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 35px;
+    border-radius: 7px;
+    margin-bottom: 13px;
+}
+
+.AddAccount:hover {
+    opacity: 0.9;
+}
+
+.AddBuisness:hover {
+    background-color: #363636;
+}
+
+.AddBuisness {
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+    border: #fff solid 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 35px;
+    border-radius: 7px;
+    margin-bottom: 8px;
+}
+
+.addDesk {
+    font-size: 14px;
+    color: #838383;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 0;
+}
+
+.about {
+    color: #9d9d9d;
+    text-decoration: none;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about:hover {
+    border-bottom: 0.5px solid rgb(86, 86, 231);
+}
+
+.recomendation {
+    position: relative;
+    top: -490px;
+    left: 765px;
+    font-size: 14px;
+    color: #5d5d5d;
+}
+
+/* Footer */
+
+footer {
+    position: relative;
+    top: -590px;
+    margin: 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 15px;
+    font-size: 14px;
+}
+
+.footer-content p {
+    margin-right: 45px;
+}
+
+.nav-footer a {
+    text-decoration: none;
+    color: rgb(73, 73, 221);
+    margin-right: 20px;
+}
+
+.nav-footer a:hover {
+    border-bottom: 0.5px solid rgb(86, 86, 231);
+}
+
+.last-content a{
+    color: rgb(73, 73, 221);
+    text-decoration: none;
+    margin-right: 15px;
+    margin-left: 10px;
+}
+
+.last-content a:hover {
+    border-bottom: 0.5px solid rgb(86, 86, 231);
+}
+
+/* ОКно*/
+
+#menuF {
+    position: absolute;
+    background-color: #363636;
+    margin: 0;
+    padding: 10px;
+    width: 240px;
+    border-radius: 10px;
+    bottom: -90px;
+    left: -140px;
+    z-index: 100;
+    font-size: 14px;
+    
+    opacity: 0;
+}
+
+
+
+
+#menuF h1 {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+#infoIcon {
+    position: relative;
+    bottom: 40px;
+    left: 140px;
+    cursor: pointer;
+    margin: 0;
+}
+
+div {
+    margin: 0;
+    padding: 0;
+}
+
+.fade-enter-active, .fade-leave-active {
+    transition: opacity 0.5s ease;
+  }
+  
+.fade-enter-from, .fade-leave-to {
+  opacity: 0;
+}
+
+
+
+
+
+
+
+
+
